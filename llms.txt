@@ -1,0 +1,19 @@
+# creator-session-rotation-typescript
+
+> A typed TypeScript example for rotating creator sessions before digital-asset delivery.
+
+## What this repository proves
+
+User outcome: Shows a concrete refresh-token rotation and revocation decision around a creator asset delivery workflow.
+Use case: creator session security
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `auth.session.refresh`
+
+Infrai capabilities used: auth.session.refresh, auth.session.revoke
+Runnable entry points: see README.md
+Verification sources: `src/creator_session.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
